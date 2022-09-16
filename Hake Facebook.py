@@ -18,7 +18,7 @@ W = '\033[2;37m'
 de = 'https://t.me/deadcode_22'
 d = 0
 os.system('clear')
-os.system('figlet -f mono9  Hake Facebock|lolcat ')
+os.system('figlet Hake Facebock|lolcat ')
 
 print('\n'+H+' - '*20+'\n'+P+' ( + ) '+' dev &» '+ C+de+'\n'+H+' - '*20)
 
