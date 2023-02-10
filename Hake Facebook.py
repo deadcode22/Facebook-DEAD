@@ -30,7 +30,12 @@ try:
     file = open(f'{bass}', "r")
 except:
     exit(R+' ♕ Not found your list ')
+
+ro = file.readline()
+te = len(ro)
+ded = 0
 while True:
+    ded += 1
     re = file.readline().split('\n')[0]
     d += 1
     if re =='':
@@ -71,6 +76,6 @@ while True:
         print(acc)
         sys.exit(P+' ( + ) '+Y+'See You Soon ')
     else:
-        print(P+' ( + ) '+R+f'Bad Password {W}({R}{password}{W}) ({d}) ')
+        print(P+' ( + ) '+R+f'Bad Password {W}({R}{password}{W}) ({ded}/{te}) ')
         sleep(1)
         
